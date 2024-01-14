@@ -96,5 +96,3 @@ class CPU_Spider(scrapy.Spider):
             'multi_threading':response.xpath("//tr/td/div[text()='Simultaneous Multithreading']/following-sibling::div/text()").get()
         }
 
-# response.xpath("//tr/td/parent::div[text()='Microarchitecture'][2]").get()
-        # rt': response.xpath("//tr/td/div[text(🙁'ECC Support']/following-sibling::div/text()").get(),  
