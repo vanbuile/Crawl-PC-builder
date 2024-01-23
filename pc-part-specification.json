@@ -307,7 +307,7 @@
         "Frequency Response": ["frequency_response", true],
         "Impedance": ["impedance", true],
         "Sensitivity At 1V RMS": ["sensitivity", true],
-        "Connector": ["connector", true],
+        "Connection": ["connection", true],
         "Cord Length": ["cord_length", true],
         "Microphone": ["microphone", false],
         "Wireless": ["wireless", false],
