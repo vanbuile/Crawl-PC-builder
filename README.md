@@ -1,0 +1,1 @@
+scrapy crawl + 'spider name' -o 'store_in_json_file_name.json'

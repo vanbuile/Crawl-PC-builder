@@ -43,6 +43,7 @@ class Monitor_Spider(scrapy.Spider):
             'manufacturer':response.xpath("//tr/td/div[text()='Manufacturer']/following-sibling::div/text()").get(),
             'model': model,
             'resolution': response.xpath("//tr/td/div[text()='Resolution']/following-sibling::div/text()").get(),
+            'screen_size': response.xpath("//tr/td/div[text()='Screen Size']/following-sibling::div/text()").get(),
             'aspect_ratio': response.xpath("//tr/td/div[text()='Aspect Ratio']/following-sibling::div/text()").get(),
             'refresh_rate': response.xpath("//tr/td/div[text()='Refresh Rate']/following-sibling::div/text()").get(),
             'response_time': response_time,
